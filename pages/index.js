@@ -107,7 +107,7 @@ export default function PaginaInicial() {
               console.log("Alguém submeteu o form");
               // window.location.href = '/chat'
               if (usernamelenght >= 2) {
-                roteamento.push('/chat');
+                roteamento.push(`/chat?username=${username}`);
               }
             }}
 
